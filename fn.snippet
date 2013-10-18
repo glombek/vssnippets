@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Keywords>
+        <Keyword>method</Keyword>
+        <Keyword>function</Keyword>
+      </Keywords>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>SnippetFile2</Title>
+      <Author>Joe Glombek</Author>
+      <Description>Method Body</Description>
+      <HelpUrl>http://average-joe.info/c-method-code-snippet/</HelpUrl>
+      <Shortcut>fn</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>FunctionName</ID>
+          <ToolTip>Function Name</ToolTip>
+          <Default>MyFunction</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ReturnType</ID>
+          <ToolTip>Return Type</ToolTip>
+          <Default>void</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Body</ID>
+          <ToolTip>Body</ToolTip>
+          <Default>throw new NotImplementedException();</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Params</ID>
+          <ToolTip>Parameters</ToolTip>
+          <Default>
+          </Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Visibility</ID>
+          <ToolTip>Visibility</ToolTip>
+          <Default>public</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl"><![CDATA[$Visibility$ $ReturnType$ $FunctionName$($Params$)
+{
+    $Body$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
